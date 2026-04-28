@@ -2,6 +2,9 @@ import fastf1
 import pandas as pd
 import os
 
+# ✅ Create cache directory FIRST
+os.makedirs('data/cache', exist_ok=True)
+
 fastf1.Cache.enable_cache('data/cache')
 
 
