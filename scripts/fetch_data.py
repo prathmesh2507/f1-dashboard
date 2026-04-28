@@ -2,21 +2,21 @@ import fastf1
 import pandas as pd
 import os
 
-# ✅ Get absolute project root
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+def setup_environment():
+    import os
+    import fastf1
 
-# ✅ Create directories using absolute path
-cache_dir = os.path.join(BASE_DIR, 'data', 'cache')
-raw_dir = os.path.join(BASE_DIR, 'data', 'raw')
-processed_dir = os.path.join(BASE_DIR, 'data', 'processed')
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-os.makedirs(cache_dir, exist_ok=True)
-os.makedirs(raw_dir, exist_ok=True)
-os.makedirs(processed_dir, exist_ok=True)
+    cache_dir = os.path.join(BASE_DIR, 'data', 'cache')
+    raw_dir = os.path.join(BASE_DIR, 'data', 'raw')
+    processed_dir = os.path.join(BASE_DIR, 'data', 'processed')
 
-# ✅ Enable cache using absolute path
-fastf1.Cache.enable_cache(cache_dir)
+    os.makedirs(cache_dir, exist_ok=True)
+    os.makedirs(raw_dir, exist_ok=True)
+    os.makedirs(processed_dir, exist_ok=True)
 
+    fastf1.Cache.enable_cache(cache_dir)
 
 def get_latest_completed_race(year=2026):
     schedule = fastf1.get_event_schedule(year)
