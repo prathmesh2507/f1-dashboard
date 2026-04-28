@@ -1,16 +1,14 @@
-from fetch_data import fetch_race_data
+from fetch_data import fetch_latest_race
 from preprocess import process_all
 
+
 def run_pipeline():
-    year = 2025
-    gp = 'Monaco'
+    print("🚀 Starting Auto Pipeline...")
 
-    print("Starting pipeline...")
-
-    fetch_race_data(year, gp)
+    fetch_latest_race(2026)
     process_all()
 
-    print("Pipeline completed successfully 🚀")
+    print("✅ Pipeline completed")
 
 
 if __name__ == "__main__":

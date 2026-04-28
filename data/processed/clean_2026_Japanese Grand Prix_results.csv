@@ -1,0 +1,23 @@
+driver_number,driver,team,position,points,grid_position,status
+12,Kimi Antonelli,Mercedes,1.0,25.0,1.0,Finished
+81,Oscar Piastri,McLaren,2.0,18.0,3.0,Finished
+16,Charles Leclerc,Ferrari,3.0,15.0,4.0,Finished
+63,George Russell,Mercedes,4.0,12.0,2.0,Finished
+1,Lando Norris,McLaren,5.0,10.0,5.0,Finished
+44,Lewis Hamilton,Ferrari,6.0,8.0,6.0,Finished
+10,Pierre Gasly,Alpine,7.0,6.0,7.0,Finished
+3,Max Verstappen,Red Bull Racing,8.0,4.0,11.0,Finished
+30,Liam Lawson,Racing Bulls,9.0,2.0,14.0,Finished
+31,Esteban Ocon,Haas F1 Team,10.0,1.0,12.0,Finished
+27,Nico Hulkenberg,Audi,11.0,0.0,13.0,Finished
+6,Isack Hadjar,Red Bull Racing,12.0,0.0,8.0,Finished
+5,Gabriel Bortoleto,Audi,13.0,0.0,9.0,Finished
+41,Arvid Lindblad,Racing Bulls,14.0,0.0,10.0,Finished
+55,Carlos Sainz,Williams,15.0,0.0,16.0,Finished
+43,Franco Colapinto,Alpine,16.0,0.0,15.0,Finished
+11,Sergio Perez,Cadillac,17.0,0.0,19.0,Finished
+14,Fernando Alonso,Aston Martin,18.0,0.0,21.0,Lapped
+77,Valtteri Bottas,Cadillac,19.0,0.0,20.0,Lapped
+23,Alexander Albon,Williams,20.0,0.0,17.0,Lapped
+18,Lance Stroll,Aston Martin,21.0,0.0,22.0,Retired
+87,Oliver Bearman,Haas F1 Team,22.0,0.0,18.0,Retired
