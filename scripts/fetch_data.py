@@ -2,8 +2,11 @@ import fastf1
 import pandas as pd
 import os
 
-# ✅ Create cache directory FIRST
+
+# ✅ Create ALL required folders
 os.makedirs('data/cache', exist_ok=True)
+os.makedirs('data/raw', exist_ok=True)
+os.makedirs('data/processed', exist_ok=True)
 
 fastf1.Cache.enable_cache('data/cache')
 
