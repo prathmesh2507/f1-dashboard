@@ -1,0 +1,21 @@
+driver_number,driver,team,position,points,grid_position,status
+1,Max Verstappen,Red Bull Racing,1.0,25.0,1.0,Finished
+81,Oscar Piastri,McLaren,2.0,18.0,3.0,Finished
+4,Lando Norris,McLaren,3.0,15.0,2.0,Finished
+16,Charles Leclerc,Ferrari,4.0,12.0,5.0,Finished
+63,George Russell,Mercedes,5.0,10.0,4.0,Finished
+14,Fernando Alonso,Aston Martin,6.0,8.0,6.0,Finished
+31,Esteban Ocon,Haas F1 Team,7.0,6.0,8.0,Finished
+44,Lewis Hamilton,Ferrari,8.0,4.0,16.0,Finished
+27,Nico Hulkenberg,Kick Sauber,9.0,2.0,18.0,Finished
+18,Lance Stroll,Aston Martin,10.0,1.0,15.0,Finished
+5,Gabriel Bortoleto,Kick Sauber,11.0,0.0,7.0,Finished
+87,Oliver Bearman,Haas F1 Team,12.0,0.0,11.0,Finished
+55,Carlos Sainz,Williams,13.0,0.0,12.0,Finished
+22,Yuki Tsunoda,Red Bull Racing,14.0,0.0,10.0,Finished
+12,Kimi Antonelli,Mercedes,15.0,0.0,14.0,Finished
+23,Alexander Albon,Williams,16.0,0.0,17.0,Finished
+6,Isack Hadjar,Racing Bulls,17.0,0.0,9.0,Lapped
+30,Liam Lawson,Racing Bulls,18.0,0.0,13.0,Lapped
+10,Pierre Gasly,Alpine,19.0,0.0,19.0,Lapped
+43,Franco Colapinto,Alpine,20.0,0.0,20.0,Lapped
