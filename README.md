@@ -8,3 +8,12 @@ An advanced, auto-updating Formula 1 analytics dashboard built using FastF1, Str
 - Driver and team analytics
 - Race strategy insights
 
+## Tech Stack
+
+- Python
+
+- FastF1
+
+- Streamlit
+
+- Plotly
